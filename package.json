@@ -2,6 +2,11 @@
   "name": "typst-snippets",
   "displayName": "Typst snippets",
   "description": "Provide usefull typst snippets",
+  "publisher": "supersurviveur",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/supersurviveur/typst-snippets.git"
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.85.0"
