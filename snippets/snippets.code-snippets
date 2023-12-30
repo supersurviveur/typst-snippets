@@ -1,0 +1,44 @@
+{
+	"Write a sum": {
+		"prefix": "sum",
+		"body": [
+			"sum_(${1:indice})^(${2:exposant}) ${3}"
+		],
+		"description": "Write a sum"
+	},
+	"Write a product": {
+		"prefix": "prod",
+		"body": [
+			"prod_(${1:indice})^(${2:exposant}) ${3}"
+		],
+		"description": "Write a product"
+	},
+	"Create a new variable": {
+		"prefix": "soit",
+		"body": [
+			"Soit $${1:x} in ${2:RR}$"
+		],
+		"description": "Create a new variable"
+	},
+	"Create a new variable with condition": {
+		"prefix": "soittq",
+		"body": [
+			"Soit $${1:x} in ${2:RR}$ tel que $${1:x} ${4}$"
+		],
+		"description": "Create a new variable with condition"
+	},
+	"Define a math function": {
+		"prefix": "func",
+		"body": [
+			"${1:f} : cases(delim: \"|\", ${2:RR} -> ${3:RR}, ${4:x} -> ${5:x})"
+		],
+		"description": "Define a math function"
+	},
+	"Forall": {
+		"prefix": "all",
+		"body": [
+			"forall ${1:x} in ${2:RR}, ${3}"
+		],
+		"description": "Forall"
+	},
+}
